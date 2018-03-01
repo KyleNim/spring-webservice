@@ -1,0 +1,17 @@
+GET http://localhost:8092/hello
+
+### 직접 JSON사용
+POST http://localhost:8080/posts
+Content-Type: application/json
+
+{
+    "title": "제목입니다112",
+    "content": "내용입니다",
+    "author": "저자입니다"
+}
+
+###
+
+GET http://localhost:8080/posts
+
+###
