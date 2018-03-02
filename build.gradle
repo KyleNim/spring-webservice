@@ -24,7 +24,7 @@ apply plugin: 'org.springframework.boot'
 
 
 group = 'com.kyle'
-version = '0.0.5'
+version = '0.0.6'
 sourceCompatibility = 1.8
 //Spring Boot Overriding
 ext['hibernate.version'] = '5.2.11.Final' //추가
